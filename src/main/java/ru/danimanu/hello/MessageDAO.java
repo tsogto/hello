@@ -14,7 +14,7 @@ public class MessageDAO {
     private EntityManager entityManager;
 
     public List<Message> findAllMessages() {
-        Query query = entityManager.createQuery("select c from ru.danimanu.hello.Message c");
+        Query query = entityManager.createQuery("select m from Message m");
         return query.getResultList();
     }
 }
