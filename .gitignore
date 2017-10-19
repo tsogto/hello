@@ -1,0 +1,6 @@
+target/
+.idea/
+src/main/resources/
+src/test/
+deploy.bat
+*.iml
